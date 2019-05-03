@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "userId": 5,
+        "date" : "12-12-2019",
+        "items":[
+            {
+                "productId": "5c5e94ed939720ae8f3a7af5",
+                "amount": 1
+            },
+            {
+                "productId": "5c5e94eda3068277e72e1eba",
+                "amount": 1
+            }
+        ] 
+    },
+    {
+        "id": 2,
+        "userId": 2,
+        "date" : "12-12-2019",
+        "items":[
+            {
+                "productId": "5c5e94ed939720ae8f3a7af5",
+                "amount": 2
+            },
+            {
+                "productId": "5c5e94eda3068277e72e1eba",
+                "amount": 1
+            }
+        ] 
+    }
+]

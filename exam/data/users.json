@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Kasia",
+        "lastname": "Paszko",
+        "email": "kate@gmail.com"
+    },
+    {
+        "id": 2,
+        "name": "Anna",
+        "lastname": "Grodzka",
+        "email": "ana@gmail.com"
+    },
+    {
+        "id": 3,
+        "name": "Ula",
+        "lastname": "Niemyjska",
+        "email": "ula@gmail.com"
+    },
+    {
+        "id": 4,
+        "name": "Zofia",
+        "lastname": "Izak",
+        "email": "zofia@gmail.com"
+    },
+    {
+        "id": 5,
+        "name": "Kacper",
+        "lastname": "Lulabaj",
+        "email": "kacper@gmail.com"
+    }
+]
