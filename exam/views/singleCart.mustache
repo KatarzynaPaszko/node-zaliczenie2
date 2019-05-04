@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <title>Shopping cart</title>
+    </head>
+    <body>
+        <h1 style="color: red">Zamówienie nr: </h1>
+        <h3>Name: <span style="color: blue">{{ userData.name }} {{ userData.lastname }} </span></h3>
+        <h3>Email: {{ userData.email }}</h3>
+        <h3>Products:</h3>
+        <ul>
+        {{#products}}
+            <li>
+                <p>Name: <span style="color: green">{{ name }} </span></p>
+                <p>Manufacture: {{ manufacture }}</p>
+                <p>Category: {{ category }}</p>
+                <p>Price: {{ amount }}</p>
+                <p>Quantity: {{ quantity }}</p>
+            </li>
+        {{/products}}
+        </ul>            
+    </body>
+</html>
+

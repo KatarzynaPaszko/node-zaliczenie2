@@ -1,10 +1,10 @@
 <html>
     <head>
-        <title>Podatek</title>
+        <title>Shopping cart</title>
     </head>
     <body>
-        <h1 style="color: red">Zamówienia: </h1>
-        <ul>{{#cartsData}}
+        <h1 style="color: red">{{header}} </h1>
+        <ul>{{#order}}
             <li>
                 <h3>Name: <span style="color: blue">{{ userData.name }} {{ userData.lastname }} </span></h3>
                 <h3>Email: {{ userData.email }}</h3>
@@ -12,7 +12,7 @@
                 <ul>
                  {{#products}}
                     <li>
-                        <h5>Name: <span style="color: green">{{ name }} </span></h5>
+                        <p>Name: <span style="color: green">{{ name }} </span></p>
                         <p>Manufacture: {{ manufacture }}</p>
                         <p>Category: {{ category }}</p>
                         <p>Price: {{ amount }}</p>
@@ -21,7 +21,7 @@
                 {{/products}}
                 </ul>            
             </li>
-        {{/cartsData}}
+        {{/order}}
         </ul>
     </body>
 </html>
